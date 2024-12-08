@@ -1,3 +1,48 @@
+Project Title
+Car Rental Website
+
+Project Description
+A fully responsive car rental website built within a 24-hour hackathon. The website features five pages, including a homepage, categories page, payment page, admin page, and product details page.
+
+Key Features
+
+- Responsive design for seamless user experience across devices
+- Interactive elements, including buttons and scrolling effects
+- Categories page with "Show More" feature to display additional products
+- Payment page with secondary "Rent Now" button redirecting to admin page
+
+Technologies Used
+
+- HTML
+- CSS (Tailwind CSS)
+- JavaScript (React)
+
+Acknowledgments
+Built within a 24-hour hackathon
+
+Getting Started
+To run this project locally, follow these steps:
+
+1. Clone the repository: `git clone (link unavailable)
+2. Install dependencies: npm install
+3. Start the development server: npm start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
