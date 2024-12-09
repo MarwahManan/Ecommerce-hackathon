@@ -60,8 +60,9 @@ export const PopularCar: React.FC = () => {
 
   
   return (
-    <div className="p-4 bg-gray-100 md:p-8 flex justify-between items-center mb-6">
+    <div className="p-4 bg-gray-100 md:p-8 >
       {/* Section Header */}
+      <div flex justify-between items-center mb-6">
         <h2 className="text-lg font-semibold text-gray-900 md:text-xl">Popular Car</h2>
         <button className="text-blue-600 font-medium hover:underline">
           View All
@@ -74,8 +75,7 @@ export const PopularCar: React.FC = () => {
             Show More Cars
           </button>
       </section> 
-     
-  
+     </div>
 
       {/* Responsive Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
