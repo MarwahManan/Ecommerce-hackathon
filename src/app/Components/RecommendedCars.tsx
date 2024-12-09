@@ -87,12 +87,12 @@ export const RecommendedCar: React.FC = () => {
       favoriteIcon: "/images/Vector.png",
     },
   ],
-      return (
-       <div className="p-4 bg-gray-100 md:p-8">
-      {/* Section Header */}
-      <h2 className="text-lg font-semibold text-slate-900 text-left mb-6 md:text-xl">
-        Recommended Car
-      </h2>
+       return (
+  <div className="p-4 bg-gray-100 md:p-8">
+    {/* Section Header */}
+    <h2 className="text-lg font-semibold text-slate-900 text-left mb-6 md:text-xl">
+      Recommended Car
+    </h2>
 
       {/* Responsive Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
