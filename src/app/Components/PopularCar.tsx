@@ -2,14 +2,6 @@ import React from "react";
 import CarCard from "./CarCard"
 import Link from "next/link";
 
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
 
 export const PopularCar: React.FC = () => {
   const popularCars = [
@@ -62,19 +54,13 @@ export const PopularCar: React.FC = () => {
       {/* Section Header */}
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-lg font-semibold text-gray-900 md:text-xl">Popular Car</h2>
-           <Link href={"/categories"}>
         <button className="text-blue-600 font-medium hover:underline">
           View All
         </button>
-          </Link>
 
-          <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
-
-          <Link href={'/payment'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
-      </div>
+          <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button
 
         <section className="button w-full text-center">
-        <Link href={"/categories"}>
           <button className="bg-[#3563e9] px-4 py-2 text-white rounded-md mt-5">
             Show More Cars
           </button>
