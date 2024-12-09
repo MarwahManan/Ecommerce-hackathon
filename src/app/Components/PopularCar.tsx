@@ -1,5 +1,6 @@
 import React from "react";
 import CarCard from "./CarCard"
+import Link from "next/link";
 
 import {
   Card,
