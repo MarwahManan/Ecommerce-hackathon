@@ -1,6 +1,14 @@
 import React from "react";
 import CarCard from "./CarCard"
 
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
 export const PopularCar: React.FC = () => {
   const popularCars = [
