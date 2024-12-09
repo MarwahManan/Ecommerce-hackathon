@@ -126,12 +126,12 @@ export const RecommendedCar: React.FC = () => {
 
       {/* Show More Button */}
       <div className="flex justify-center mt-12">
-       > <Link href={"/categories"}>
+        <Link href={"/categories"}>
           <button className="bg-[#3563e9] px-4 py-2 text-white rounded-md mt-5">
             Show More Cars
           </button>
         </Link>
-      </div>
+     
     </div>
   );
 };
