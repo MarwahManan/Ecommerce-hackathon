@@ -93,10 +93,10 @@ export const RecommendedCar: React.FC = () => {
       capacity: "5 seats",
       price: 90,
       favoriteIcon: "/images/Vector.png",
-    },
-  ];
+    }],
 
-  return (
+    
+return (
     <div className="p-4 bg-gray-100 md:p-8">
       {/* Section Header */}
       <h2 className="text-lg font-semibold text-slate-900 text-left mb-6 md:text-xl">
