@@ -8,7 +8,7 @@ const Hero = ()=> {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/*Left Card */}
           <div
-            className="bg-blue-100 p-6 rounded-lg shadow-md"
+            className="bg-blue-100 p-6 rounded-lg shadow-md  width-[640] height-[361]"
             style={{
               backgroundImage: 'url("/bl.jpg")',
               backgroundSize: 'cover',
@@ -27,13 +27,13 @@ const Hero = ()=> {
             <img
               src="/image 7.png"
               alt="Car"
-              className="mt-4 w-[340px] h-[108px] ml-40 object-cover"
+              className="mt-4 w-[406px] h-[116px] ml-40 object-cover flex"
             />
           </div>
 
           {/* Right Card */}
           <div
-            className="bg-blue-200 p-6 rounded-lg shadow-md"
+            className="bg-blue-200 p-6 rounded-lg shadow-md  width-[640] height-[361]"
             style={{
               backgroundImage: 'url("/br.jpg")',
               backgroundSize: 'cover',
@@ -52,7 +52,7 @@ const Hero = ()=> {
             <img
               src="/image 8.png" 
               alt="Car"
-              className="mt-4 w-[340px] h-[108px] ml-40 object-cover"
+              className="mt-4 w-[406px] h-[116px] ml-40 object-cover flex"
             />
           </div>
         </div>
