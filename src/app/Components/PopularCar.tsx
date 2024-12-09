@@ -64,8 +64,9 @@ export const PopularCar: React.FC = () => {
           <button className="bg-[#3563e9] px-4 py-2 text-white rounded-md mt-5">
             Show More Cars
           </button>
-        </Link>
-      </section>
+      </section> 
+        </div>
+  
 
       {/* Responsive Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
