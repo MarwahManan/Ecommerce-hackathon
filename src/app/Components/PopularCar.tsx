@@ -50,9 +50,18 @@ export const PopularCar: React.FC = () => {
   ];
 
   return (
-    <div className="p-4 bg-gray-100 md:p-8">
+  <div className="p-4 bg-gray-100 md:p-8">
+    {/* Section Header */}
+    <h2 className="text-lg font-semibold text-slate-900 text-left mb-6 md:text-xl">
+      Your Header Text
+    </h2>
+  </div>
+);
+
+  
+  return (
+    <div className="p-4 bg-gray-100 md:p-8 flex justify-between items-center mb-6">
       {/* Section Header */}
-      <div className="flex justify-between items-center mb-6">
         <h2 className="text-lg font-semibold text-gray-900 md:text-xl">Popular Car</h2>
         <button className="text-blue-600 font-medium hover:underline">
           View All
@@ -65,7 +74,7 @@ export const PopularCar: React.FC = () => {
             Show More Cars
           </button>
       </section> 
-        </div>
+     
   
 
       {/* Responsive Grid */}
