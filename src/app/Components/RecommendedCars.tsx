@@ -1,5 +1,15 @@
 import React from "react";
 import CarCard from "./CarCard";
+import Link from "next/link";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+
 
 // Responsive RecommendedCar Component
 export const RecommendedCar: React.FC = () => {
@@ -98,15 +108,29 @@ export const RecommendedCar: React.FC = () => {
         {cars.map((car, index) => (
           <CarCard key={index} {...car} />
         ))}
+
+
+          <Link href={"/categories"}>
+        <button className="text-blue-600 font-medium hover:underline">
+          View All
+        </button>
+          </Link>
+        <section>
+          <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
+
+          <Link href={'/payment'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
+      
+       
+      </section>
       </div>
 
       {/* Show More Button */}
       <div className="flex justify-center mt-12">
-        <button
-          className="px-6 py-3 text-base font-medium text-white bg-[#3563E9] rounded-md hover:bg-[#274bc9] transition duration-300 w-full max-w-[200px]"
-        >
-          Show more cars
-        </button>
+       > <Link href={"/categories"}>
+          <button className="bg-[#3563e9] px-4 py-2 text-white rounded-md mt-5">
+            Show More Cars
+          </button>
+        </Link>
       </div>
     </div>
   );
