@@ -49,15 +49,6 @@ export const PopularCar: React.FC = () => {
     },
   ];
 
-  return (
-  <div className="p-4 bg-gray-100 md:p-8">
-    {/* Section Header */}
-    <h2 className="text-lg font-semibold text-slate-900 text-left mb-6 md:text-xl">
-      Your Header Text
-    </h2>
-  </div>
-);
-
   
   return (
     <div className="p-4 bg-gray-100 md:p-8 >
