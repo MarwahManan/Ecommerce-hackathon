@@ -56,7 +56,7 @@ const Navbar = ()=> {
       </Link>
 
       {/* Profile Picture */}
-      <Link href="/profile">
+      <Link href="/dashboard">
         <div className="w-8 h-8 md:w-10 md:h-10 rounded-full border border-gray-300 flex items-center justify-center overflow-hidden cursor-pointer">
           <Image src="/Image.png" alt="Profile" width={40} height={40} />
         </div>
