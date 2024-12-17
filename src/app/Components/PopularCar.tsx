@@ -51,22 +51,15 @@ export const PopularCar: React.FC = () => {
 
   
   return (
-    <div className="p-4 bg-gray-100 md:p-8 >
+    
+  );<div className="p-4 bg-gray-100 md:p-8">
       {/* Section Header */}
-      <div flex justify-between items-center mb-6">
+      <div className="flex justify-between items-center mb-6">
         <h2 className="text-lg font-semibold text-gray-900 md:text-xl">Popular Car</h2>
         <button className="text-blue-600 font-medium hover:underline">
           View All
         </button>
-
-          <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button
-
-        <section className="button w-full text-center">
-          <button className="bg-[#3563e9] px-4 py-2 text-white rounded-md mt-5">
-            Show More Cars
-          </button>
-      </section> 
-     </div>
+      </div>
 
       {/* Responsive Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -75,7 +68,6 @@ export const PopularCar: React.FC = () => {
         ))}
       </div>
     </div>
-  );
 };
 
 export default PopularCar;
