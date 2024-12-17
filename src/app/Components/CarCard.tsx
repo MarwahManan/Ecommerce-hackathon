@@ -87,12 +87,13 @@ export const CarCard: React.FC<CarCardProps> = ({
             <div className="mt-1 text-sm">{discountedPrice.toLocaleString()}</div> 
           )}
         </div>
-        <button
+        <Link href="/detail"><button
           className="gap-2 self-start px-6 py-3 mt-1 text-base font-medium tracking-tight text-center text-white bg-[#3563E9] rounded min-h-[40px] w-[130px] whitespace-nowrap"
           aria-label={`Rent ${name} now`} 
         >
           Rent Now
         </button>
+        </Link>
       </div>
     </div>
   );
