@@ -27,7 +27,7 @@ const Hero = ()=> {
             <img
               src="/image 7.png"
               alt="Car"
-              className="mt-4 w-[406px] h-[116px] ml-40 object-cover flex"
+              className="mt-4 w-[340px] h-[108px]  mx-auto object-cover flex"
             />
           </div>
 
@@ -52,7 +52,7 @@ const Hero = ()=> {
             <img
               src="/image 8.png" 
               alt="Car"
-              className="mt-4 w-[406px] h-[116px] ml-40 object-cover flex"
+              className="mt-4 w-[406px] h-[116px]  mx-auto object-cover flex"
             />
           </div>
         </div>
