@@ -102,16 +102,12 @@ export const RecommendedCar: React.FC = () => {
       </div>
 
       {/* Show More Button */}
-      <div className="flex justify-center mt-12">
+      <div className=" mt-12  flex-wrap flex items-center space-x-4 lg:space-x-20 w-full lg:w-auto gap-6 ">
 
       <Link href="/categories"><button className="bg-[#3563e9] px-6 py-3 text-white rounded-md hover:bg-[#274bb8]">
             Show More Cars
           </button></Link>
-      {/* <Link href={"/app/Categories"}>
-          <button className="bg-[#3563e9] px-6 py-3 text-white rounded-md hover:bg-[#274bb8]">
-            Show More Cars
-          </button>
-        </Link> */}
+     
 
 
         <div className="text-gray-600 text-end ml-[500px] hover:shadow-[0_0_15px_5px_#3563E9] transition-all">120 Cars</div>
