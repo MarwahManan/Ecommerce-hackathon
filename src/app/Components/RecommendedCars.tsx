@@ -89,24 +89,34 @@ export const RecommendedCar: React.FC = () => {
   ],
        return (
   <div className="p-4 bg-gray-100 md:p-8">
-    {/* Section Header */}
-    <h2 className="text-lg font-semibold text-slate-900 text-left mb-6 md:text-xl">
-      Recommended Car
-    </h2>
+      {/* Section Header */}
+      <h2 className="text-lg font-semibold text-slate-900 text-left mb-6 md:text-xl">
+        Recommended Car
+      </h2>
 
       {/* Responsive Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {cars.map((car, index) => (
           <CarCard key={index} {...car} />
         ))}
+      </div>
 
       {/* Show More Button */}
       <div className="flex justify-center mt-12">
-          <button className="bg-[#3563e9] px-4 py-2 text-white rounded-md mt-5">
+
+      <Link href="/categories"><button className="bg-[#3563e9] px-6 py-3 text-white rounded-md hover:bg-[#274bb8]">
+            Show More Cars
+          </button></Link>
+      {/* <Link href={"/app/Categories"}>
+          <button className="bg-[#3563e9] px-6 py-3 text-white rounded-md hover:bg-[#274bb8]">
             Show More Cars
           </button>
-     
-    </div>
+        </Link> */}
+
+
+        <div className="text-gray-600 text-end ml-[500px] hover:shadow-[0_0_15px_5px_#3563E9] transition-all">120 Cars</div>
+        </div>
+      </div>
   );
 };
 
