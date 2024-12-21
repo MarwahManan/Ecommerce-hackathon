@@ -27,7 +27,8 @@ const Hero = ()=> {
             <img
               src="/image 7.png"
               alt="Car"
-              className="mt-4 w-[340px] h-[108px]  mx-auto object-cover flex"
+              className=" mt-4 w-{340px} h-{108} mx-auto object-cover"
+             
             />
           </div>
 
