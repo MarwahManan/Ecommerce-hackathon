@@ -1,6 +1,6 @@
 import { defaultOverrides } from "next/dist/server/require-hook";
 import React from "react";
-
+import Link from "next/link";
 
 
 // Define the types for the CarCard component props
