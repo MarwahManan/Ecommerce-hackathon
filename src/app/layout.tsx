@@ -38,7 +38,7 @@ export default function RootLayout({
       >
         <Label/>
         <Navbar/>
-        <Hero/>
+     
         {children}
         <Footer/>
       </body>
