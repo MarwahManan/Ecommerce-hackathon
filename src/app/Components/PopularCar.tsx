@@ -52,7 +52,7 @@ export const PopularCar: React.FC = () => {
   
   return (
     
-  );<div className="p-4 bg-gray-100 md:p-8">
+  <div className="p-4 bg-gray-100 md:p-8">
       {/* Section Header */}
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-lg font-semibold text-gray-900 md:text-xl">Popular Car</h2>
@@ -68,6 +68,7 @@ export const PopularCar: React.FC = () => {
         ))}
       </div>
     </div>
+  );
 };
 
 export default PopularCar;
