@@ -85,7 +85,7 @@ const page = () => {
                 <div className='w-[100%] mt-3 h-fit'>
                     <div className='px-4 py-3 bg-white '>
                         <div className='flex gap-4'>
-                            <input type="radio" checked/>
+                            <input type="radio"  checked={true} readOnly/>
                             <h1 className='font-bold'>Pick - Up</h1>
                         </div>
 
@@ -126,7 +126,7 @@ const page = () => {
 
                     <div className='w-full px-4 py-3 bg-white'>
                         <div className='flex gap-4'>
-                            <input type="radio" checked/>
+                            <input type="radio"  checked={true} readOnly/>
                             <h1 className='font-bold'>Drop - Off</h1>
                         </div>
 
