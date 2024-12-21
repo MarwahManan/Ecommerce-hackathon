@@ -13,7 +13,7 @@ export const PopularCar: React.FC = () => {
       transmission: "Manual",
       capacity: "2 People",
       price: 99,
-      favoriteIcon: "/images/vector.png"
+      favoriteIcon: "/images/Vector.png"
     },
     {
       name: "Nissan GT - R",
