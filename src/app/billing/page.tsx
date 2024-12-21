@@ -202,8 +202,8 @@ const  Billing = () => {
                 </div>
 
                 <div className='w-fit mt-4'>
-                   <Link href="/dashboard"><button className='bg-[rgba(53,99,233,100%)] text-white px-6 py-3 rounded-lg'>Rent Now</button>
-                </Link>
+                  <Link href="/">  <button className='bg-[rgba(53,99,233,100%)] text-white px-6 py-3 rounded-lg'>Rent Now</button>
+                  </Link>
                 </div>
 
                 <div className='mt-3'>
@@ -218,6 +218,7 @@ const  Billing = () => {
     </div>
     </>
   )
+                       
 }
 
 export default Billing;
