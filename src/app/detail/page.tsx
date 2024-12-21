@@ -17,7 +17,7 @@ import views2 from "/public/images/View 2.png";
 import views3 from "/public/images/View 3.png";
 
 const page = () => {
-  return (
+  return  (
    <>
    {/* Parent div for category page in which side bar with features and images are present */}
     <div className='flex '>
@@ -26,28 +26,28 @@ const page = () => {
             <div>
                 <h1 className='text-[rgba(144,163,191,100%)] text-[12px] font-semibold'>TYPE</h1>
                 <ul className='my-4 space-y-3'>
-                    <li className='text-[rgba(89,103,128,100%)] font-semibold'> <input type="checkbox" /> Sport <span className='text-[rgba(144,163,191,100%)] text-[14px]'>(10)</span></li>
-                    <li className='text-[rgba(89,103,128,100%)] font-semibold'> <input type="checkbox" /> SUV <span className='text-[rgba(144,163,191,100%)] text-[14px]'>(12)</span></li>
-                    <li className='text-[rgba(89,103,128,100%)] font-semibold'> <input type="checkbox" /> MPV <span className='text-[rgba(144,163,191,100%)] text-[14px]'>(16)</span></li>
-                    <li className='text-[rgba(89,103,128,100%)] font-semibold'> <input type="checkbox" /> Sedan <span className='text-[rgba(144,163,191,100%)] text-[14px]'>(20)</span></li>
-                    <li className='text-[rgba(89,103,128,100%)] font-semibold'> <input type="checkbox" /> Coupe <span className='text-[rgba(144,163,191,100%)] text-[14px]'>(14)</span></li>
-                    <li className='text-[rgba(89,103,128,100%)] font-semibold'> <input type="checkbox" /> Hatchback <span className='text-[rgba(144,163,191,100%)] text-[14px]'>(14)</span></li>
+                    <li className='text-[rgba(89,103,128,100%)] font-semibold'> <input type="checkbox"  checked={true} readOnly /> Sport <span className='text-[rgba(144,163,191,100%)] text-[14px]'>(10)</span></li>
+                    <li className='text-[rgba(89,103,128,100%)] font-semibold'> <input type="checkbox"  checked={true} readOnly /> SUV <span className='text-[rgba(144,163,191,100%)] text-[14px]'>(12)</span></li>
+                    <li className='text-[rgba(89,103,128,100%)] font-semibold'> <input type="checkbox"  checked={true} readOnly /> MPV <span className='text-[rgba(144,163,191,100%)] text-[14px]'>(16)</span></li>
+                    <li className='text-[rgba(89,103,128,100%)] font-semibold'> <input type="checkbox"  checked={true} readOnly /> Sedan <span className='text-[rgba(144,163,191,100%)] text-[14px]'>(20)</span></li> 
+                    <li className='text-[rgba(89,103,128,100%)] font-semibold'> <input type="checkbox"  checked={true} readOnly /> Coupe <span className='text-[rgba(144,163,191,100%)] text-[14px]'>(14)</span></li>
+                    <li className='text-[rgba(89,103,128,100%)] font-semibold'> <input type="checkbox"  checked={true} readOnly /> Hatchback <span className='text-[rgba(144,163,191,100%)] text-[14px]'>(14)</span></li>
                 </ul>
             </div>
 
             <div className='mt-4'>
                 <h1 className='text-[rgba(144,163,191,100%)] text-[12px] font-semibold'>Capacity</h1>
                 <ul className='my-4 space-y-3'>
-                    <li className='text-[rgba(89,103,128,100%)] font-semibold'> <input type="checkbox" /> 2 Person <span className='text-[rgba(144,163,191,100%)] text-[14px]'>(10)</span></li>
-                    <li className='text-[rgba(89,103,128,100%)] font-semibold'> <input type="checkbox" /> 4 Person  <span className='text-[rgba(144,163,191,100%)] text-[14px]'>(14)</span></li>
-                    <li className='text-[rgba(89,103,128,100%)] font-semibold'> <input type="checkbox" /> 6 Person  <span className='text-[rgba(144,163,191,100%)] text-[14px]'>(12)</span></li>
-                    <li className='text-[rgba(89,103,128,100%)] font-semibold'> <input type="checkbox" /> 8 or More  <span className='text-[rgba(144,163,191,100%)] text-[14px]'>(16)</span></li>
-                </ul>
+                    <li className='text-[rgba(89,103,128,100%)] font-semibold'> <input type="checkbox" checked={true} readOnly /> 2 Person <span className='text-[rgba(144,163,191,100%)] text-[14px]'>(10)</span></li>
+                    <li className='text-[rgba(89,103,128,100%)] font-semibold'> <input type="checkbox"  checked={true} readOnly/> 4 Person  <span className='text-[rgba(144,163,191,100%)] text-[14px]'>(14)</span></li>
+                    <li className='text-[rgba(89,103,128,100%)] font-semibold'> <input type="checkbox"  checked={true} readOnly/> 6 Person  <span className='text-[rgba(144,163,191,100%)] text-[14px]'>(12)</span></li>
+                    <li className='text-[rgba(89,103,128,100%)] font-semibold'> <input type="checkbox"  checked={true} readOnly/> 8 or More  <span className='text-[rgba(144,163,191,100%)] text-[14px]'>(16)</span></li>
+                    </ul>
             </div>
 
             <div className='mt-4'>
                 <h1 className='text-[rgba(144,163,191,100%)] text-[12px] font-semibold'>Price</h1>
-                <input type="range"  className='mt-4 w-full'/>
+                <input type="range"  className='mt-4 w-full'  checked={true} readOnly/>
                 <h1 className='text-[rgba(89,103,128,100%)] font-semibold text-[14px]'>Max. $100.00</h1>
             </div>
 
