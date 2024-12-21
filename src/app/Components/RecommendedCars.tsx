@@ -86,9 +86,9 @@ export const RecommendedCar: React.FC = () => {
       price: 90,
       favoriteIcon: "/images/Vector.png",
     },
-  ],
+  ];
        return (
-  <div className="p-4 bg-gray-100 md:p-8">
+    <div className="p-4 bg-gray-100 md:p-8">
       {/* Section Header */}
       <h2 className="text-lg font-semibold text-slate-900 text-left mb-6 md:text-xl">
         Recommended Car
@@ -102,17 +102,18 @@ export const RecommendedCar: React.FC = () => {
       </div>
 
       {/* Show More Button */}
-      <div className=" mt-12  flex-wrap flex items-center space-x-4 lg:space-x-20 w-full lg:w-auto gap-6 ">
-
-      <Link href="/categories"><button className="bg-[#3563e9] px-6 py-3 text-white rounded-md hover:bg-[#274bb8]">
+      <div className="mt-12 flex-wrap flex items-center space-x-4 lg:space-x-20 w-full lg:w-auto gap-6">
+        <Link href="/categories">
+          <button className="bg-[#3563e9] px-6 py-3 text-white rounded-md hover:bg-[#274bb8]">
             Show More Cars
-          </button></Link>
-     
+          </button>
+        </Link>
 
-
-        <div className="text-gray-600 text-end ml-[500px] hover:shadow-[0_0_15px_5px_#3563E9] transition-all">120 Cars</div>
+        <div className="text-gray-600 text-end ml-[500px] hover:shadow-[0_0_15px_5px_#3563E9] transition-all">
+          120 Cars
         </div>
       </div>
+    </div>
   );
 };
 
